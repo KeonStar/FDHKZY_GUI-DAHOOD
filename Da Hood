@@ -1,0 +1,30 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Fd Hkzy Gaming Da Hood Gui", "BloodTheme")
+
+--MAIN
+local Main = Window:NewTab("Da Hood Aimlock")
+local MainSection = Main:NewSection("Da Hood Aimlock")
+
+
+
+MainSection:NewButton("Fd Hkzy Gui Urew Aimlock", "Q To Lock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fdhkzyyoutube/Urew/main/UrewAimlock", true))()
+end)
+
+
+
+MainSection:NewButton("Fd Hkzy Gui Yarn Aimlock", "C To Lock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fdhkzyyoutube/Yarn/main/YarnBestLock", true))()
+end)
+
+
+
+MainSection:NewButton("Pool Target Aim (OP) (BEST)", "Q To Lock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KeonStar/Pool-Aimlock/main/Pool"))();
+end)
+
+
+
+MainSection:NewButton("Orange Dot Lock", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/6942334039b725b3ea380aaa7959949f938c2dc9/obf_swVYM0h5h3Rk75C9yprMgKc2ER64968pH0zAy2E30o3H3smBe01xnvZNwrm6oDYo.lua.txt", true))()
+end)
